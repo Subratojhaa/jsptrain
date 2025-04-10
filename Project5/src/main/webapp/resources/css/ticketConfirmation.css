@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Ticket confirmation details */
+p {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin: 10px 0;
+}
+
+/* Strong text for labels */
+strong {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Link styling */
+a {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Link hover effect */
+a:hover {
+    background-color: #2980b9;
+}
+
+/* Page container */
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Adding space between elements */
+p, a {
+    margin-top: 15px;
+}
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
